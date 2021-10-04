@@ -1,0 +1,13 @@
+calculated columns are calculated before the aggregation (it happens at the row-level). It is stored in the dataset alongside other columns and
+
+
+
+calculated measures are calculated after the aggregation. It is calculated dynamically on-the-fly while visualization is being created/modified via calculated measures. It isn't actually stored in the dataset.
+
+
+
+
+
+
+ubuntu@ec2-18-117-106-132.us-east-2.compute.amazonaws.com
+
